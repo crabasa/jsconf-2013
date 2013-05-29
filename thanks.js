@@ -8,7 +8,7 @@ twilio.listSms({to: number, dateSent: "2013-05-29"}, function(err, response) {
     twilio.sendSms({
       to: sms.from, 
       from: number, 
-      body: ""
+      body: "Hey, Carter here. Thanks for attending my JSConf talk! I've posted the slides and the code I used to send you this SMS here: http://bit.ly/133eQqA"
     });
   });
 });
