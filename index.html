@@ -47,9 +47,9 @@
 					<h3>Developer Evangelist</h3>
 					<h3>@CarterRabasa &#9734; carter@twilio.com</h3>
 				</section>
-				<!--section>
+				<section>
 					<h1>Send an SMS to<br />(972) 44 - JSCONF</h1>
-				</section-->
+				</section>
 				<section>
 					<h1>I'm a Dad</h1>
 				</section>
@@ -103,7 +103,10 @@
 					</p>
 					<aside class="notes">
 					People who view the world through the lense of software<br/>
-					Any problem can be solved once it is in the domain of software
+					Any problem can be solved once it is in the domain of software<br/>
+					Remote controls vs. Apple remote<br/>
+					POS systems vs. Square<br/>
+					Thermostat vs. Nest
 					</aside>
 				</section>	
 				<section>
@@ -140,27 +143,27 @@
 					<h2>We Have A Moral Imperative to Fix This</h2>
 				</section>			
 				<section>
+					<h2>Calling All Hackers</h2>
+					<p>
+						<img src="img/raganwald.png"/>
+					</p>
+					<aside class="notes">
+					hackers change the world (route around things)<br/>
+					cultural exclusion of outsiders<br/>
+					very uneven application of programming
+					</aside>
+				</section>	
+				<section>
 					<h2>When Ideas Die, It’s a Moral Wrong</h2>
 					<p>
 						<img src="img/inventing.png"/>
 					</p>
 					<aside class="notes">
-					Brett Victor (Apple)<br/>
+					Brett Victor (Apple, <a targe="_new" href="http://www.youtube.com/watch?v=PUv66718DII&feature=youtu.be&t=2m33s">Inventing on Principle</a>)<br/>
 					Creators need an immediate connection to what they create<br/>
 					When ideas die, it’s a moral wrong (this is a social movement, like fighting censorship)<br/>
 					</aside>
-				</section>
-				<section>
-					<h2>Calling All Hackers</h2>
-					<p>
-						<img src="img/raganwald.png"/>
-					</p>
-					<aside class="notes" data-markdown>
-					hackers change the world (route around things)<br/>
-					cultural exclusion of outsiders<br/>
-					very uneven application of programming
-					</aside>
-				</section>		
+				</section>	
 				<!--section>
 					<h2>Coding is a form of storytelling</h2>
 					<p>
@@ -190,6 +193,11 @@ for (var i = 0; i < nodeList.length; i++) {
 					<pre class="fragment"><code data-trim>
 var checked = $('input:checked');
 					</code></pre>
+					<aside class="notes">
+					Languages - syntax, semantics and grammar
+					DOM API is hard to use and understand<br/>
+					jQuery teaches us the value of form in addition to function
+					</aside>				
 				</section>
 				<section>
 					<h2>Web APIs</h2>
@@ -214,10 +222,10 @@ twilio.sendSms({
 });
 					</code></pre>
 					<p class="fragment">Processing an SMS</p>
-					<pre class="fragment"><code data-trim>
-<Response>
-	<Sms>Thank you for confirming your appointment, {{ fname }}</Sms> 
-</Response>
+					<pre class="fragment"><code class="xml" data-trim>
+&lt;Response&gt;
+	&lt;Sms&gt;Thank you for confirming your appointment, {{ fname }}&lt;/Sms&gt; 
+&lt;/Response&gt;
 					</code></pre>
 					<aside class="notes">
 
@@ -227,7 +235,7 @@ twilio.sendSms({
 					<h1>How You Can Help</h1>
 					<h3 class="fragment">Make more of the world addressable to programming</h3>
 					<h3 class="fragment">Improve the accessibility of your APIs</h3>
-					<h3 class="fragment">Think about how to provide instant feedback</h3>
+					<h3 class="fragment">Commit yourself to helping more people learn how to code</h3>
 					<aside class="notes">
 					Every single programmer in this audience can decide to care about designing better APIs<br/>
 					What can we learn from containerization?
@@ -246,7 +254,7 @@ twilio.sendSms({
 					<a href="http://www.nytimes.com/2011/11/06/education/edlife/why-science-majors-change-their-mind-its-just-so-darn-hard.html?_r=2">Why Science Majors Change Their Minds</a><br />
 					<a href="http://braythwayt.com/2013/04/29/calling-all-hackers.html">Calling All Hackers</a><br />
 					<a href="http://apieconomist.com/blog/2013/5/7/john-sheehan-wants-you-to-build-apis-that-speak-human">John Sheehan Wants You to Build APIs that Speak Human</a><br />
-					<a href="http://www.economist.com/news/finance-and-economics/21578041-containers-have-been-more-important-globalisation-freer-trade-humble">The humble hero</a>  <a href="http://www.twilio.com/blog/2012/08/how-to-tell-a-story-with-code-2.html">How to Tell a Story with Code</a> <a href="http://vimeo.com/36579366">Inventing on Principle</a>  <a href=""></a>  <a href=""></a>  <a href=""></a> </p>
+					<a href="http://www.economist.com/news/finance-and-economics/21578041-containers-have-been-more-important-globalisation-freer-trade-humble">The humble hero</a>  <a href="http://www.twilio.com/blog/2012/08/how-to-tell-a-story-with-code-2.html">How to Tell a Story with Code</a> <a href="http://vimeo.com/36579366">Inventing on Principle</a>  <a href="http://webstandardssherpa.com/reviews/secrets-of-awesome-javascript-api-design">Secrets of Awesome JavaScript API Design</a>  <a href=""></a>  <a href=""></a> </p>
 				</section>	
 			</div>
 
